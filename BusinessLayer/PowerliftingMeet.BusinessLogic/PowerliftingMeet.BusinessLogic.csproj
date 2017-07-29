@@ -40,7 +40,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Managers\ILifterManager.cs" />
+    <Compile Include="Managers\LifterManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DataLayer\PowerliftingMeet.DataAccessEntities\PowerliftingMeet.DataAccessEntities.csproj">
+      <Project>{E8B1DD85-9DB6-480A-9F98-5D0CA001B62D}</Project>
+      <Name>PowerliftingMeet.DataAccessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DataLayer\PowerliftingMeet.DataAccessLayer\PowerliftingMeet.DataAccessLayer.csproj">
+      <Project>{9EFFE9DA-0A43-40C5-ADB0-D8AC608C657A}</Project>
+      <Name>PowerliftingMeet.DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PowerliftingMeet.BusinessEntities\PowerliftingMeet.BusinessEntities.csproj">
+      <Project>{A718CF36-7CF0-4024-8369-A5B08535E88F}</Project>
+      <Name>PowerliftingMeet.BusinessEntities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

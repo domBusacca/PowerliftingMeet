@@ -1,14 +1,22 @@
-﻿using System.Web.Http;
+﻿using PowerliftingMeet.BusinessLogic.Managers;
+using System.Web.Http;
 
 namespace PowerliftingMeet.WebApi.Controllers
 {
     [RoutePrefix("api/lifter")]
     public class LiftersController : ApiController
     {
-        [Route("")]
-        public IHttpActionResult Get()
+        private readonly ILifterManager _lifterManager;
+
+        public LiftersController(ILifterManager lifterManager)
         {
-            return Ok("Lifter");
+            _lifterManager = lifterManager;
+        }
+
+        [Route("{id:int}")]
+        public IHttpActionResult Get(int id)
+        {
+            return Ok(_lifterManager.GetLifter(id));
         }
     }
 }

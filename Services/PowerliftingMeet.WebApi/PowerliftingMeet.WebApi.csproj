@@ -110,7 +110,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\BusinessLayer\PowerliftingMeet.BusinessEntities\PowerliftingMeet.BusinessEntities.csproj">
+      <Project>{A718CF36-7CF0-4024-8369-A5B08535E88F}</Project>
+      <Name>PowerliftingMeet.BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\BusinessLayer\PowerliftingMeet.BusinessLogic\PowerliftingMeet.BusinessLogic.csproj">
+      <Project>{37151553-2CF8-4198-9637-40540BD3377A}</Project>
+      <Name>PowerliftingMeet.BusinessLogic</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>

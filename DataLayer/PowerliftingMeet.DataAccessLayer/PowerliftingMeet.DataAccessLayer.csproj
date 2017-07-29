@@ -41,6 +41,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ILifterRepository.cs" />
+    <Compile Include="Repositories\LifterRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PowerliftingMeet.DataAccessEntities\PowerliftingMeet.DataAccessEntities.csproj">
+      <Project>{E8B1DD85-9DB6-480A-9F98-5D0CA001B62D}</Project>
+      <Name>PowerliftingMeet.DataAccessEntities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
