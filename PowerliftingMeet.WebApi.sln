@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLayer", "BusinessLayer", "{24C09764-706D-4863-83AE-17EFFC2229E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataLayer", "DataLayer", "{051F38CF-F212-469F-ACF3-555B30770712}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{4FE003A0-76C8-4708-8A09-78B0CDC76220}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{BF6EE238-8B2F-44D1-A92F-72BF6F974DDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{53356BAC-76BD-4D16-A5FE-D90245131004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerliftingMeet.BusinessLogic", "BusinessLayer\PowerliftingMeet.BusinessLogic\PowerliftingMeet.BusinessLogic.csproj", "{37151553-2CF8-4198-9637-40540BD3377A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerliftingMeet.BusinessEntities", "BusinessLayer\PowerliftingMeet.BusinessEntities\PowerliftingMeet.BusinessEntities.csproj", "{A718CF36-7CF0-4024-8369-A5B08535E88F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerliftingMeet.Common", "Common\PowerliftingMeet.Common\PowerliftingMeet.Common.csproj", "{B0A7F65A-F1C3-4DD2-AD34-84A3642E9BCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerliftingMeet.DataAccessLayer", "DataLayer\PowerliftingMeet.DataAccessLayer\PowerliftingMeet.DataAccessLayer.csproj", "{9EFFE9DA-0A43-40C5-ADB0-D8AC608C657A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerliftingMeet.DataAccessEntities", "DataLayer\PowerliftingMeet.DataAccessEntities\PowerliftingMeet.DataAccessEntities.csproj", "{E8B1DD85-9DB6-480A-9F98-5D0CA001B62D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerliftingMeet.WebApi", "Services\PowerliftingMeet.WebApi\PowerliftingMeet.WebApi.csproj", "{07B98D5F-4A19-46DC-A0C1-0A2911466896}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37151553-2CF8-4198-9637-40540BD3377A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37151553-2CF8-4198-9637-40540BD3377A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37151553-2CF8-4198-9637-40540BD3377A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37151553-2CF8-4198-9637-40540BD3377A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A718CF36-7CF0-4024-8369-A5B08535E88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A718CF36-7CF0-4024-8369-A5B08535E88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A718CF36-7CF0-4024-8369-A5B08535E88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A718CF36-7CF0-4024-8369-A5B08535E88F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0A7F65A-F1C3-4DD2-AD34-84A3642E9BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A7F65A-F1C3-4DD2-AD34-84A3642E9BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A7F65A-F1C3-4DD2-AD34-84A3642E9BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A7F65A-F1C3-4DD2-AD34-84A3642E9BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EFFE9DA-0A43-40C5-ADB0-D8AC608C657A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EFFE9DA-0A43-40C5-ADB0-D8AC608C657A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EFFE9DA-0A43-40C5-ADB0-D8AC608C657A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EFFE9DA-0A43-40C5-ADB0-D8AC608C657A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8B1DD85-9DB6-480A-9F98-5D0CA001B62D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B1DD85-9DB6-480A-9F98-5D0CA001B62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B1DD85-9DB6-480A-9F98-5D0CA001B62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B1DD85-9DB6-480A-9F98-5D0CA001B62D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B98D5F-4A19-46DC-A0C1-0A2911466896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B98D5F-4A19-46DC-A0C1-0A2911466896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B98D5F-4A19-46DC-A0C1-0A2911466896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B98D5F-4A19-46DC-A0C1-0A2911466896}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{37151553-2CF8-4198-9637-40540BD3377A} = {24C09764-706D-4863-83AE-17EFFC2229E2}
+		{A718CF36-7CF0-4024-8369-A5B08535E88F} = {24C09764-706D-4863-83AE-17EFFC2229E2}
+		{B0A7F65A-F1C3-4DD2-AD34-84A3642E9BCF} = {4FE003A0-76C8-4708-8A09-78B0CDC76220}
+		{9EFFE9DA-0A43-40C5-ADB0-D8AC608C657A} = {051F38CF-F212-469F-ACF3-555B30770712}
+		{E8B1DD85-9DB6-480A-9F98-5D0CA001B62D} = {051F38CF-F212-469F-ACF3-555B30770712}
+		{07B98D5F-4A19-46DC-A0C1-0A2911466896} = {BF6EE238-8B2F-44D1-A92F-72BF6F974DDD}
+	EndGlobalSection
+EndGlobal
