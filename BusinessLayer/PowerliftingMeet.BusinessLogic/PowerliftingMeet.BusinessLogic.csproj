@@ -40,8 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Managers\ILifterManager.cs" />
-    <Compile Include="Managers\LifterManager.cs" />
+    <Compile Include="Managers\Lifters\ILifterManager.cs" />
+    <Compile Include="Managers\Lifters\LifterManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

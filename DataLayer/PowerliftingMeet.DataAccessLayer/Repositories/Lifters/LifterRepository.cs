@@ -1,6 +1,6 @@
 ﻿using PowerliftingMeet.DataAccessEntities.Lifters;
 
-namespace PowerliftingMeet.DataAccessLayer.Repositories
+namespace PowerliftingMeet.DataAccessLayer.Repositories.Lifters
 {
     public class LifterRepository : ILifterRepository
     {

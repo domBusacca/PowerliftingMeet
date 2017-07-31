@@ -41,8 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\ILifterRepository.cs" />
-    <Compile Include="Repositories\LifterRepository.cs" />
+    <Compile Include="Repositories\Lifters\ILifterRepository.cs" />
+    <Compile Include="Repositories\Lifters\LifterRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PowerliftingMeet.DataAccessEntities\PowerliftingMeet.DataAccessEntities.csproj">

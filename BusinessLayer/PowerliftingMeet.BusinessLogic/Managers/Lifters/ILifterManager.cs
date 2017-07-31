@@ -1,6 +1,6 @@
 ﻿using PowerliftingMeet.BusinessEntities.Lifters;
 
-namespace PowerliftingMeet.BusinessLogic.Managers
+namespace PowerliftingMeet.BusinessLogic.Managers.Lifters
 {
     public interface ILifterManager
     {

@@ -1,5 +1,5 @@
-﻿using PowerliftingMeet.BusinessLogic.Managers;
-using System.Web.Http;
+﻿using System.Web.Http;
+using PowerliftingMeet.BusinessLogic.Managers.Lifters;
 
 namespace PowerliftingMeet.WebApi.Controllers
 {

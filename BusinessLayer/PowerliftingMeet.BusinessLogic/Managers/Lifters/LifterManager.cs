@@ -1,7 +1,7 @@
 ﻿using PowerliftingMeet.BusinessEntities.Lifters;
-using PowerliftingMeet.DataAccessLayer.Repositories;
+using PowerliftingMeet.DataAccessLayer.Repositories.Lifters;
 
-namespace PowerliftingMeet.BusinessLogic.Managers
+namespace PowerliftingMeet.BusinessLogic.Managers.Lifters
 {
     public class LifterManager : ILifterManager
     {
