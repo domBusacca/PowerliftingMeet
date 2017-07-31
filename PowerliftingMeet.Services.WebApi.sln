@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerliftingMeet.DataAccess
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerliftingMeet.DataAccessEntities", "DataLayer\PowerliftingMeet.DataAccessEntities\PowerliftingMeet.DataAccessEntities.csproj", "{E8B1DD85-9DB6-480A-9F98-5D0CA001B62D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerliftingMeet.WebApi", "Services\PowerliftingMeet.WebApi\PowerliftingMeet.WebApi.csproj", "{07B98D5F-4A19-46DC-A0C1-0A2911466896}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerliftingMeet.Services.WebApi", "Services\PowerliftingMeet.WebApi\PowerliftingMeet.Services.WebApi.csproj", "{07B98D5F-4A19-46DC-A0C1-0A2911466896}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerliftingMeet.Ioc", "Common\PowerliftingMeet.Ioc\PowerliftingMeet.Ioc.csproj", "{8F4EE6D4-A3DB-451E-A21B-01CECB2A0F8F}"
 EndProject

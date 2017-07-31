@@ -1,7 +1,7 @@
-﻿using PowerliftingMeet.Ioc.WebApi;
-using System.Web.Http;
+﻿using System.Web.Http;
+using PowerliftingMeet.Ioc.WebApi;
 
-namespace PowerliftingMeet.WebApi
+namespace PowerliftingMeet.Services.WebApi
 {
     public class WebApiApplication : System.Web.HttpApplication
     {

@@ -1,7 +1,7 @@
 ﻿using System.Web.Http;
 using PowerliftingMeet.BusinessLogic.Managers.Lifters;
 
-namespace PowerliftingMeet.WebApi.Controllers
+namespace PowerliftingMeet.Services.WebApi.Controllers
 {
     [RoutePrefix("api/lifter")]
     public class LiftersController : ApiController

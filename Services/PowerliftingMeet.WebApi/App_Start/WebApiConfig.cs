@@ -1,6 +1,6 @@
 ﻿using System.Web.Http;
 
-namespace PowerliftingMeet.WebApi
+namespace PowerliftingMeet.Services.WebApi
 {
     public static class WebApiConfig
     {
