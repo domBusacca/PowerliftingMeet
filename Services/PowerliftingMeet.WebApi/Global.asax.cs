@@ -1,4 +1,5 @@
-﻿using System.Web.Http;
+﻿using PowerliftingMeet.Ioc.WebApi;
+using System.Web.Http;
 
 namespace PowerliftingMeet.WebApi
 {
@@ -7,6 +8,7 @@ namespace PowerliftingMeet.WebApi
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
+            GlobalConfiguration.Configure(UnityConfig.Configure);
         }
     }
 }
