@@ -25,7 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C1B5C921
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerliftingMeet.Ioc", "Common\PowerliftingMeet.Ioc\PowerliftingMeet.Ioc.csproj", "{8F4EE6D4-A3DB-451E-A21B-01CECB2A0F8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerliftingMeet.Services.WebApi", "Services\PowerliftingMeet.WebApi\PowerliftingMeet.Services.WebApi.csproj", "{07B98D5F-4A19-46DC-A0C1-0A2911466896}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerliftingMeet.Services.WebApi", "Services\PowerliftingMeet.Services.WebApi\PowerliftingMeet.Services.WebApi.csproj", "{D608B4B6-7DE2-4BE1-9561-4850E793863D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,10 +57,10 @@ Global
 		{8F4EE6D4-A3DB-451E-A21B-01CECB2A0F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F4EE6D4-A3DB-451E-A21B-01CECB2A0F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F4EE6D4-A3DB-451E-A21B-01CECB2A0F8F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{07B98D5F-4A19-46DC-A0C1-0A2911466896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07B98D5F-4A19-46DC-A0C1-0A2911466896}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07B98D5F-4A19-46DC-A0C1-0A2911466896}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07B98D5F-4A19-46DC-A0C1-0A2911466896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D608B4B6-7DE2-4BE1-9561-4850E793863D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D608B4B6-7DE2-4BE1-9561-4850E793863D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D608B4B6-7DE2-4BE1-9561-4850E793863D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D608B4B6-7DE2-4BE1-9561-4850E793863D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +72,6 @@ Global
 		{9EFFE9DA-0A43-40C5-ADB0-D8AC608C657A} = {5702ECF0-CE60-4874-8CAF-876A743F0C6B}
 		{E8B1DD85-9DB6-480A-9F98-5D0CA001B62D} = {5702ECF0-CE60-4874-8CAF-876A743F0C6B}
 		{8F4EE6D4-A3DB-451E-A21B-01CECB2A0F8F} = {5153213F-6546-4EC6-A514-B8AB393BC9AE}
-		{07B98D5F-4A19-46DC-A0C1-0A2911466896} = {16CD8982-7885-4D76-9266-F097CCFA8B0F}
+		{D608B4B6-7DE2-4BE1-9561-4850E793863D} = {16CD8982-7885-4D76-9266-F097CCFA8B0F}
 	EndGlobalSection
 EndGlobal

@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{07B98D5F-4A19-46DC-A0C1-0A2911466896}</ProjectGuid>
+    <ProjectGuid>{D608B4B6-7DE2-4BE1-9561-4850E793863D}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -110,9 +110,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="Web.config">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -126,7 +124,7 @@
       <Name>PowerliftingMeet.BusinessEntities</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\BusinessLayer\PowerliftingMeet.BusinessLogic\PowerliftingMeet.BusinessLogic.csproj">
-      <Project>{37151553-2CF8-4198-9637-40540BD3377A}</Project>
+      <Project>{37151553-2cf8-4198-9637-40540bd3377a}</Project>
       <Name>PowerliftingMeet.BusinessLogic</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Common\PowerliftingMeet.Ioc\PowerliftingMeet.Ioc.csproj">
@@ -153,9 +151,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>4237</DevelopmentServerPort>
+          <DevelopmentServerPort>10691</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:4237/</IISUrl>
+          <IISUrl>http://localhost:10691/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
