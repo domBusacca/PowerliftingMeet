@@ -1,7 +1,7 @@
 ﻿using System.Web.Http;
 using PowerliftingMeet.BusinessLogic.Managers.Lifters;
 
-namespace PowerliftingMeet.Services.WebApi.Controllers
+namespace PowerliftingMeet.Services.WebApi.Controllers.Lifters
 {
     /// <summary>
     /// 
