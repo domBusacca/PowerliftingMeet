@@ -4,7 +4,8 @@ using PowerliftingMeet.BusinessLogic.Managers.Lifters;
 namespace PowerliftingMeet.Services.WebApi.Controllers.Lifters
 {
     /// <summary>
-    /// 
+    /// Lifter api route. Potentially move under V1 folder space  
+    /// Create custom controller selector for versioning based on header 
     /// </summary>
     [RoutePrefix("api/lifter")]
     public class LiftersController : ApiController
