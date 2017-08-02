@@ -10,6 +10,7 @@ namespace PowerliftingMeet.Ioc.WebApi
     /// <summary>
     /// Specifies the Unity configuration for the main container.
     /// </summary>
+    /// // TODO: Think of moving UnityConfig and WebHosting into separate project so we don't have duplicate assembly references in two projects
     public class UnityConfig
     {
         /// <summary>
