@@ -12,9 +12,9 @@ namespace PowerliftingMeet.BusinessLogic.Managers.Lifters
             _lifterRepo = lifterRepo;
         }
 
-        public Lifter GetLifter(int id)
+        public Lifter GetLifter(int lifterId)
         {
-            var lifterDb = _lifterRepo.GetLifter(id);
+            var lifterDb = _lifterRepo.GetLifter(lifterId);
             return new Lifter()
             {
                 LifterId = lifterDb.LifterId,

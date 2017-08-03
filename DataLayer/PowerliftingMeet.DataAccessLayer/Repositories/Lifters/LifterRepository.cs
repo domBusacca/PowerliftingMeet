@@ -4,7 +4,7 @@ namespace PowerliftingMeet.DataAccessLayer.Repositories.Lifters
 {
     public class LifterRepository : ILifterRepository
     {
-        public LifterDb GetLifter(int id)
+        public LifterDb GetLifter(int lifterId)
         {
             return new LifterDb()
             {

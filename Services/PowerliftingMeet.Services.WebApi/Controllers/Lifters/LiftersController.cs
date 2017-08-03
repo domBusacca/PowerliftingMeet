@@ -24,12 +24,12 @@ namespace PowerliftingMeet.Services.WebApi.Controllers.Lifters
         /// <summary>
         /// Get endpoint for retrieving single lifter by id
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="lifterId"></param>
         /// <returns></returns>
-        [Route("{id:int}")]
-        public IHttpActionResult Get(int id)
+        [Route("{lifterId:int}")]
+        public IHttpActionResult Get(int lifterId)
         {
-            return Ok(_lifterManager.GetLifter(id));
+            return Ok(_lifterManager.GetLifter(lifterId));
         }
     }
 }

@@ -4,6 +4,6 @@ namespace PowerliftingMeet.DataAccessLayer.Repositories.Lifters
 {
     public interface ILifterRepository
     {
-        LifterDb GetLifter(int id);
+        LifterDb GetLifter(int lifterId);
     }
 }

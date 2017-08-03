@@ -4,6 +4,6 @@ namespace PowerliftingMeet.BusinessLogic.Managers.Lifters
 {
     public interface ILifterManager
     {
-        Lifter GetLifter(int id);
+        Lifter GetLifter(int lifterId);
     }
 }
