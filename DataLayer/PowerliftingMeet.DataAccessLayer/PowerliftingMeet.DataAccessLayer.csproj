@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\Flights\FlightRepository.cs" />
+    <Compile Include="Repositories\Flights\IFlightRepository.cs" />
     <Compile Include="Repositories\Lifters\ILifterRepository.cs" />
     <Compile Include="Repositories\Lifters\LifterRepository.cs" />
   </ItemGroup>

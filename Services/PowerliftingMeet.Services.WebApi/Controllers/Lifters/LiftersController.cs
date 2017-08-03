@@ -7,7 +7,7 @@ namespace PowerliftingMeet.Services.WebApi.Controllers.Lifters
     /// Lifter api route. Potentially move under V1 folder space  
     /// Create custom controller selector for versioning based on header 
     /// </summary>
-    [RoutePrefix("api/lifter")]
+    [RoutePrefix("api/lifters")]
     public class LiftersController : ApiController
     {
         private readonly ILifterManager _lifterManager;

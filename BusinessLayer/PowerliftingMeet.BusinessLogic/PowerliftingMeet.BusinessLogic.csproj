@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Managers\Flights\FlightManager.cs" />
+    <Compile Include="Managers\Flights\IFlightManager.cs" />
     <Compile Include="Managers\Lifters\ILifterManager.cs" />
     <Compile Include="Managers\Lifters\LifterManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

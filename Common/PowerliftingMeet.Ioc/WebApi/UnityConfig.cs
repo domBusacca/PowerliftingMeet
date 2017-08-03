@@ -2,7 +2,9 @@ using System;
 using System.Web.Http;
 using Microsoft.Practices.Unity;
 using Microsoft.Practices.Unity.WebApi;
+using PowerliftingMeet.BusinessLogic.Managers.Flights;
 using PowerliftingMeet.BusinessLogic.Managers.Lifters;
+using PowerliftingMeet.DataAccessLayer.Repositories.Flights;
 using PowerliftingMeet.DataAccessLayer.Repositories.Lifters;
 
 namespace PowerliftingMeet.Ioc.WebApi
@@ -37,9 +39,11 @@ namespace PowerliftingMeet.Ioc.WebApi
         {
             // Business Layer
             container.RegisterType<ILifterManager, LifterManager>();
+            container.RegisterType<IFlightManager, FlightManager>();
 
             // Data Access Layer
             container.RegisterType<ILifterRepository, LifterRepository>();
+            container.RegisterType<IFlightRepository, FlightRepository>();
         }
     }
 }
