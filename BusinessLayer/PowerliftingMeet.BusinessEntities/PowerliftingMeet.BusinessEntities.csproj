@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attempts\Attempt.cs" />
     <Compile Include="Flights\Flight.cs" />
     <Compile Include="Lifters\Lifter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

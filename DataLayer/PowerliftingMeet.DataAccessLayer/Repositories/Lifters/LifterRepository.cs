@@ -9,8 +9,7 @@ namespace PowerliftingMeet.DataAccessLayer.Repositories.Lifters
             return new LifterDb()
             {
                 LifterId = 1,
-                FirstName = "Test",
-                LastName = "User"
+                UserId = 1
             };
         }
     }

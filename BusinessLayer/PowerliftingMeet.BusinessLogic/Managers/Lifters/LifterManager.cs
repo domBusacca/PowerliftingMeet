@@ -18,8 +18,7 @@ namespace PowerliftingMeet.BusinessLogic.Managers.Lifters
             return new Lifter()
             {
                 LifterId = lifterDb.LifterId,
-                FirstName = lifterDb.FirstName,
-                LastName = lifterDb.LastName
+                UserId = lifterDb.UserId
             };
         }
     }

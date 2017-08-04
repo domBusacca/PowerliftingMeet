@@ -6,7 +6,11 @@ namespace PowerliftingMeet.DataAccessLayer.Repositories.Flights
     {
         public FlightDb GetFlight(int flightId)
         {
-            return new FlightDb();
+            return new FlightDb()
+            {
+                FlightId = 1,
+                FlightName = "Test Flight"
+            };
         }
     }
 }
